@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
-import { ArrowRight, Mail, Phone, MapPin } from "lucide-react";
+import { Button } from '@/components/ui/button';
+import { ArrowRight, Mail, Phone, MapPin } from 'lucide-react';
 
 const CallToAction = () => {
   return (
@@ -7,12 +7,17 @@ const CallToAction = () => {
       {/* Background decorations */}
       <div className="absolute inset-0">
         <div className="absolute top-10 left-1/4 w-40 h-40 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-20 right-1/3 w-32 h-32 bg-secondary/10 rounded-full blur-2xl animate-pulse" style={{animationDelay: '1s'}}></div>
-        <div className="absolute top-1/2 left-10 w-24 h-24 bg-accent/10 rounded-full blur-xl animate-pulse" style={{animationDelay: '2s'}}></div>
+        <div
+          className="absolute bottom-20 right-1/3 w-32 h-32 bg-secondary/10 rounded-full blur-2xl animate-pulse"
+          style={{ animationDelay: '1s' }}
+        ></div>
+        <div
+          className="absolute top-1/2 left-10 w-24 h-24 bg-accent/10 rounded-full blur-xl animate-pulse"
+          style={{ animationDelay: '2s' }}
+        ></div>
       </div>
-      
+
       <div className="container mx-auto px-6 lg:px-8 relative z-10">
-        
         {/* Main CTA Section */}
         <div className="text-center mb-16">
           <div className="bg-hero-gradient rounded-3xl p-12 text-white shadow-vibrant relative overflow-hidden">
@@ -22,24 +27,34 @@ const CallToAction = () => {
               <div className="absolute bottom-6 left-6 w-12 h-12 border border-white/20 rounded-full"></div>
               <div className="absolute top-1/2 left-8 w-8 h-8 bg-white/10 rounded-full"></div>
             </div>
-            
+
             <div className="relative z-10">
               <h2 className="font-display font-bold text-4xl md:text-6xl mb-6">
-                Ready to Join the<br />
+                Ready to Join the
+                <br />
                 <span className="text-yellow-200">Nutrition Revolution?</span>
               </h2>
-              
+
               <p className="text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-                Partner with us to bring smart nutrition to millions across Bangladesh
+                Partner with us to bring smart nutrition to millions across
+                Bangladesh
               </p>
 
               <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
-                <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90 font-bold text-lg px-8 py-6 group">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="bg-white text-primary hover:bg-white/90 font-bold text-lg px-8 py-6 group"
+                >
                   🚀 Invest in NutriVision
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
-                
-                <Button variant="outline" size="lg" className="bg-white/10 text-white border-white/20 hover:bg-white/20 font-bold text-lg px-8 py-6 backdrop-blur-sm">
+
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="bg-white/10 text-white border-white/20 hover:bg-white/20 font-bold text-lg px-8 py-6 backdrop-blur-sm"
+                >
                   📋 Get Business Plan
                 </Button>
               </div>
@@ -126,18 +141,20 @@ const CallToAction = () => {
           <h3 className="font-display font-bold text-3xl text-center mb-8 text-foreground">
             Get in Touch
           </h3>
-          
+
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center mb-4">
                 <Mail className="w-8 h-8 text-primary" />
               </div>
-              <h4 className="font-bold text-lg mb-2 text-foreground">Email Us</h4>
+              <h4 className="font-bold text-lg mb-2 text-foreground">
+                Email Us
+              </h4>
               <p className="text-muted-foreground mb-4">
                 Ready to discuss partnership opportunities?
               </p>
               <Button variant="outline" className="group">
-                contact@nutrivision.bd
+                nutrivision20@gmail.com
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
@@ -146,12 +163,14 @@ const CallToAction = () => {
               <div className="w-16 h-16 bg-accent/20 rounded-2xl flex items-center justify-center mb-4">
                 <Phone className="w-8 h-8 text-accent" />
               </div>
-              <h4 className="font-bold text-lg mb-2 text-foreground">Call Us</h4>
+              <h4 className="font-bold text-lg mb-2 text-foreground">
+                Call Us
+              </h4>
               <p className="text-muted-foreground mb-4">
                 Speak directly with our founding team
               </p>
               <Button variant="outline" className="group">
-                +880-1700-NUTRI
+                01745438253
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
@@ -160,7 +179,9 @@ const CallToAction = () => {
               <div className="w-16 h-16 bg-secondary/20 rounded-2xl flex items-center justify-center mb-4">
                 <MapPin className="w-8 h-8 text-secondary" />
               </div>
-              <h4 className="font-bold text-lg mb-2 text-foreground">Visit Us</h4>
+              <h4 className="font-bold text-lg mb-2 text-foreground">
+                Visit Us
+              </h4>
               <p className="text-muted-foreground mb-4">
                 Schedule a meeting at our office
               </p>
@@ -179,8 +200,9 @@ const CallToAction = () => {
               🌟 Be Part of Bangladesh's Food Innovation Story
             </h3>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              NutriVision isn't just a product - it's a mission to nourish a nation. 
-              Join us in creating a healthier, more productive Bangladesh, one breakfast at a time.
+              NutriVision isn't just a product - it's a mission to nourish a
+              nation. Join us in creating a healthier, more productive
+              Bangladesh, one breakfast at a time.
             </p>
           </div>
         </div>

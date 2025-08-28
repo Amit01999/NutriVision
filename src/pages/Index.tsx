@@ -15,7 +15,7 @@ import Header from '@/components/Header';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-bg-gradient font-body">
+    <div className="min-h-screen bg-bg-gradient font-body overflow-y-hidden">
       <Header />
       <HeroSection />
       <ProblemSolution />

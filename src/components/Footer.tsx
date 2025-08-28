@@ -10,13 +10,14 @@ import {
   Sparkles,
   Crown,
 } from 'lucide-react';
+import logo from '../assets/logo (2).png';
 
 const Footer = () => {
   const socialLinks = [
     {
       icon: Facebook,
       label: 'Facebook',
-      href: '#',
+      href: 'https://www.facebook.com/share/17GePkR37y/',
       color: 'from-blue-400 to-blue-600',
     },
     {
@@ -34,11 +35,11 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: Phone, label: '+880 1234-567890', href: 'tel:+8801234567890' },
+    { icon: Phone, label: '+8801745438253', href: 'tel:+8801745438253' },
     {
       icon: Mail,
-      label: 'hello@nutrivision.bd',
-      href: 'mailto:hello@nutrivision.bd',
+      label: 'nutrivision20@gmail.com',
+      href: 'mailto:nutrivision20@gmail.com',
     },
     { icon: MapPin, label: 'Dhaka, Bangladesh', href: '#' },
   ];
@@ -86,20 +87,12 @@ const Footer = () => {
             <div className="lg:col-span-2 space-y-6 animate-fade-in-up">
               <div className="flex items-center gap-3 mb-6">
                 <div className="relative">
-                  <div className="w-12 h-12 bg-gradient-to-r from-pink-400 via-purple-400 to-yellow-400 rounded-2xl flex items-center justify-center shadow-lg animate-pulse-gentle">
-                    <Crown className="w-7 h-7 text-white" />
-                  </div>
                   <div className="absolute -top-2 -right-2 text-xl animate-bounce-gentle">
                     🌟
                   </div>
                 </div>
                 <div>
-                  <h3 className="font-black text-3xl bg-gradient-to-r from-pink-400 via-purple-400 to-yellow-400 bg-clip-text text-transparent">
-                    NutriVision
-                  </h3>
-                  <p className="text-gray-500 text-sm font-medium">
-                    Breakfast Revolution
-                  </p>
+                  <img src={logo} className="w-28 h-auto" alt="" />
                 </div>
               </div>
 
